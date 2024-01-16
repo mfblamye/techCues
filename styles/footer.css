@@ -166,3 +166,15 @@
 .footer__created__list-item-text a:hover {
     color: #fff;
 }
+
+@media screen and (max-width:1260px) {
+    .footer__content-wrap {
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .footer__content-wrap {
+        flex-direction: column;
+    }
+}

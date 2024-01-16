@@ -160,3 +160,17 @@
     background: #111131;
     color: #ABABFA;
 }
+
+@media screen and (max-width:740px) {
+    .header__nav-wrap {
+        flex-direction: column;
+        display: flex;
+        gap: 15px;
+    }
+}
+@media screen and (max-width:550px) {
+    .header__nav-logo-block {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

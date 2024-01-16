@@ -124,3 +124,9 @@
     line-height: 30px;
 
 }
+
+@media screen and (max-width: 1250px) {
+    .recent__content {
+        flex-direction: column;
+    }
+}

@@ -143,3 +143,9 @@
 .studies__content-list-item_link:hover .main__studies__content-list-item_link-text {
     color: #5C5CFF;
 }
+
+@media screen and (max-width:1250px){
+    .studies__content {
+        flex-direction: column;
+    }
+}

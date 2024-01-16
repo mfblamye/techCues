@@ -87,3 +87,14 @@
     background: #1B1B4D;
     color: #5C5CFF;
 }
+
+@media screen and (max-width: 770px) {
+    .ebook__wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ebook__desc-text {
+        text-align: center;
+    }
+}

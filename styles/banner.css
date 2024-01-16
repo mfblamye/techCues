@@ -78,3 +78,9 @@
     line-height: 20px;
 
 }
+
+@media screen and (max-width:1140px) {
+    .banner__box {
+        /* flex-direction: column; */
+    }
+}
