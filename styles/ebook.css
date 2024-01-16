@@ -1,0 +1,89 @@
+
+.ebook {
+
+    padding: 64px 0;
+}
+
+.ebook__wrap {
+    background: #111131;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 48px;
+}
+
+.ebook__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.ebook__desc-title-mini {
+    font-family: "Inter-Bold";
+    color: #5C5CFF;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+}
+
+.ebook__desc-text {
+    color: #fff;
+    max-width: 500px;
+    width: 100%;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 1px;
+
+}
+
+.ebook__form {
+    max-width: 534px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.ebook__form-input {
+    border-radius: 4px;
+    border: 1px solid #8989F8;
+    background: #1B1B4D;
+    padding: 14px;
+    color: #5C5CFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    outline: none;
+    transition: box-shadow .2s linear;
+}
+
+.ebook__form::placeholder {
+    text-align: center;
+    color: #5C5CFF;
+}
+
+.ebook__form-input:focus {
+    box-shadow: 5px 5px 10px #5c5cff63,
+        -2px -2px 10px #5c5cff63;
+}
+
+.ebook__form-submit {
+    padding: 14px;
+    background: #5C5CFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: .2s linear;
+}
+
+.ebook__form-submit:hover {
+    background: #1B1B4D;
+    color: #5C5CFF;
+}

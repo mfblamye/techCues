@@ -1,0 +1,126 @@
+.recent {
+    padding: 56px 0 64px;
+}
+
+.recent__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.recent__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent__heading-title {
+    color: #413E52;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+}
+
+.recent__heading-link {
+    color: #413E52;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    transition: color .2s linear;
+}
+
+.recent__heading-link img {
+    transition: transform .2s linear;
+}
+
+.recent__heading-link:hover img {
+    transform: translateX(2px);
+}
+
+.recent__heading-link:hover {
+    color: #5C5CFF;
+}
+
+.recent__content {
+    width: 100%;
+    padding: 34px 0;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.recent__content::-webkit-scrollbar {
+    height: 3px;
+    background: #868297;
+}
+
+.recent__content::-webkit-scrollbar-thumb {
+    background: #413E52;
+    transition: .2s linear;
+}
+
+.recent__content-box {
+    max-width: 368px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid #EBEAF2;
+    box-shadow: 0px 24px 24px 0px rgba(52, 52, 147, 0.121);
+    transition: box-shadow .2s linear;
+}
+
+.recent__content-box:hover {
+    box-shadow: 0px 24px 24px 0px rgba(52, 52, 147, 0.32);
+}
+
+.recent__content-box-poster {
+    width: 368px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.recent__content-box-desc {
+    padding: 32px 25px 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.recent__content-box-desc_title {
+    color: #5C5CFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+
+}
+
+.recent__content-box-desc_text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recent__content-box-desc_text-block-name {
+    color: #868297;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.recent__content-box-desc_text-block-text {
+    max-width: 265px;
+    width: 100%;
+    color: #413E52;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
